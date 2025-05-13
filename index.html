@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive DOM Example</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">Welcome to My Page</h1>
+  </header>
+
+  <section>
+    <p id="description">Click the button to change this text.</p>
+    <button onclick="changeText()">Change Text</button>
+  </section>
+
+  <section>
+    <p>Click the button to highlight this paragraph:</p>
+    <p id="highlight-me">This is a sample paragraph.</p>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+  </section>
+
+  <section>
+    <p>Click below to add or remove an element:</p>
+    <button onclick="toggleElement()">Add/Remove Message</button>
+    <div id="message-container"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HELLEN DIANA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
