@@ -3,6 +3,8 @@ function changeText() {
   description.textContent = "The text has been updated dynamically with JavaScript!";
 }
 
+
+
 function toggleHighlight() {
   const para = document.getElementById("highlight-me");
   para.classList.toggle("highlight");
